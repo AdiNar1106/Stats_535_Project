@@ -1,3 +1,6 @@
+# Python Files
+data/spotify_keys.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
