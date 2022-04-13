@@ -22,10 +22,8 @@ ids = getTrackIDs('Susanna Ketola', '4rnleEAOdmFAbRcNCgZMpY')
 def getTrackFeatures(id):
     meta = sp.track(id)
     features = sp.audio_features(id)
-
     # meta
     name = meta['name']
-    album = meta['album']['name']
     artist = meta['album']['artists'][0]['name']
     release_date = meta['album']['release_date']
     length = meta['duration_ms']
@@ -35,14 +33,18 @@ def getTrackFeatures(id):
     acousticness = features[0]['acousticness']
     danceability = features[0]['danceability']
     energy = features[0]['energy']
+    explicit = features[0]['explicit']
+    key = features[0]['key']
     instrumentalness = features[0]['instrumentalness']
     liveness = features[0]['liveness']
     loudness = features[0]['loudness']
     speechiness = features[0]['speechiness']
     tempo = features[0]['tempo']
+    mode = features[0]['mode']
+    duration_ms = features[0]["duration_ms"]
     time_signature = features[0]['time_signature']
 
-    track = [name, album, artist, release_date, length, popularity, danceability, acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, tempo, time_signature]
+    track = [name, id, artist, release_date, duration_ms, length, key, popularity, mode, danceability, acousticness, danceability, energy, explicit, instrumentalness, liveness, loudness, speechiness, tempo, time_signature]
     return track
 
 # loop over track ids 
@@ -54,5 +56,5 @@ for i in range(len(ids)):
 
 # create dataset
 df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature'])
-df.to_csv("spotify_dataset.csv", sep = ',')
+df.to_csv("data.csv", sep = ',')
 
