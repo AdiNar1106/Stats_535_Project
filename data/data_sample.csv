@@ -1,0 +1,9 @@
+,name,id,artist,release_date,duration_ms,length,key,popularity,mode,danceability,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,time_signature
+0,I'll Be Seeing You,4smkJW6uzoHxGReZqqwHS5,Billie Holiday,1957-01-01,211533,211533,1,63,1,0.355,0.989,0.355,0.0304,0.0555,0.116,-20.479,0.0361,90.495,3
+1,Cheek To Cheek,3MRu7wA7ziRNf2cZr9gqtb,Ella Fitzgerald,1958-01-01,228067,228066,2,57,0,0.632,0.766,0.632,0.202,0.0,0.146,-13.068,0.0587,134.298,3
+2,In A Sentimental Mood,0E8q2Fx2XuzXCO2NSAppkR,Duke Ellington,1963-02,255227,255226,3,64,0,0.464,0.936,0.464,0.305,0.0846,0.208,-12.435,0.0316,108.229,4
+3,Rock The Boat,0qvlhVNm7L5IWabWF5hlEL,Aaliyah,2001-07-07,274733,274733,5,66,1,0.637,0.0702,0.637,0.725,0.00438,0.203,-5.073,0.0333,92.99,4
+4,Suga Mama,68thzKPaW0pzn5IxcCJd8O,Beyoncé,2007-05-29,205973,205973,9,44,0,0.691,0.212,0.691,0.931,0.000118,0.34,-4.037,0.265,93.852,4
+5,No Scrubs,1KGi9sZVMeszgZOWivFpxs,TLC,1999-02-23,214400,214400,8,78,0,0.743,0.0251,0.743,0.675,0.000717,0.0685,-4.267,0.0953,92.909,4
+6,Didn't Cha Know,7pv80uUHfocFqfTytu1MVi,Erykah Badu,2000-10-31,238733,238733,3,64,0,0.753,0.48,0.753,0.472,0.0133,0.284,-9.761,0.121,135.277,4
+7,Numb,2nLtzopw4rPReszdYBJU6h,Linkin Park,2003-03-24,185587,185586,9,82,1,0.496,0.0046,0.496,0.863,0.0,0.639,-4.153,0.0381,110.018,4
